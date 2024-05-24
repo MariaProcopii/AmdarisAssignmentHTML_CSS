@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign up</title>
+    <link rel="icon" href="static/logo_fig.png" type="image/icon type">
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="colors.css" />
+    <link rel="stylesheet" href="signup.css" />
+  </head>
+  <body>
+    <main>
+        <section class="intro-photo">
+            <div id="photo" class="column">
+                <img src="static/car-intro.png"/>
+            </div>
+        </section>
+        <section class="sign-up-form">
+            <h1>Sign Up</h1>
+            <p>It's Free and Only takes a minute</p>
+            <form>
+                <div class="form-group">
+                    <label for="firstName">First Name:</label>
+                    <input type="text" id="firstName" name="firstName">
+                </div>
+                <div class="form-group">
+                    <label for="lastName">Last Name:</label>
+                    <input type="text" id="lastName" name="lastName">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password">
+                </div>
+                <div class="form-group">
+                    <label for="gender">Gender:</label>
+                    <select id="gender" name="gender">
+                        <option value="">Select Gender</option>
+                        <option value="MALE">Male</option>
+                        <option value="FEMALE">Female</option>
+                        <option value="OTHER">Other</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="dateOfBirth">Date of Birth:</label>
+                    <input type="date" id="dateOfBirth" name="dateOfBirth">
+                </div>
+                <div class="form-group">
+                    <label for="phoneNumber">Phone Number:</label>
+                    <input type="number" id="phoneNumber" name="phoneNumber">
+                </div>
+                <button type="submit">Sign Up</button>
+                <br>
+                <p class="bottom-text">
+                    By Clicking the Sign Up Button, you agree to our
+                    <a href="#">Term & Conditions</a> and <a href="#">Privacy Policy</a>
+                </p>
+            </form>
+            <br>
+            <footer>
+                <p>Already Have an Account? <a href="login.html">Login Here</a></p>
+            </footer>        
+        </section>
+    </main>
+  </body>
+</html>

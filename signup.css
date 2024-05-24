@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-gray);
+
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-family: 'Poppins', sans-serif; 
+    height: 100%;
+    width: 100%;
+    row-gap: 40px;
+}
+
+.intro-photo {
+    align-self: flex-end;
+    max-width: -20vw;
+
+}
+
+.sign-up-form{
+    background-color: var(--background-extra-light);
+    padding: 15px 25px;
+    color: var(--text-dark);
+    border-top: 4px solid var(--primary-color);
+    border-radius: 5px;
+    margin: 15px;
+    max-width: 30vw;
+    min-width: 300px;
+    align-self: center;
+    justify-self: center;
+}
+
+.sign-up-form p{
+    text-align: center;
+}
+
+.sign-up-form h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size:xx-large;
+    margin: 10px;
+}
+
+.sign-up-form .form-group {
+    margin-top: 15px;
+}
+
+.sign-up-form .form-group label {
+    display: block;
+}
+
+.sign-up-form .form-group input {
+    width: 97%;
+    padding: 10px;
+    border: var(--answer-box-border) 1px solid;
+    border-radius: 5px;
+}
+
+.sign-up-form .form-group select {
+    width: 102%;
+    padding: 10px;
+    background-color: var(--button-text-color);
+    border: var(--answer-box-border) 1px solid;
+    border-radius: 5px;
+}
+
+.sign-up-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color:var(--primary-color);
+    color: var(--button-text-color);
+    cursor: pointer;
+    border: 1px solid var(--primary-color);
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    transition: 1s;
+}
+
+.sign-up-form button:hover {
+    background-color: var(--primary-color);
+    transition: 1s;
+}
+
+@media (max-width: 500px) {
+    .sign-up-form {
+        margin-left: 20%;
+    }
+}
+
+a {
+    text-decoration: none;
+}
